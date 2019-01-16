@@ -1,89 +1,32 @@
 # TensorFlow-StockPrediction
 
-This project was made with small investors, like myself, in mind. Today, big banks are the main players in the stock market, and it is really hard for small investors to compete with the pros, which have armies of intelligent people and more computing power than any one person could ever imagine.
+I was watching a stock trading conference video, the head of one of Canada’s top trading banks was talking about High Frequency Trading. It surprised me when he said that almost 60% of all trades in the stock market are decided by computers. It showed me the disadvantage any individual trader has when competing with big banks and trading firms in the stock market. 
 
-I set out to help tip the balance, even if it is by a miniscule amount. I know that many people have tried and failed at this endeavor but I want to give it a try.
+Although it seems hopeless to compete with the professionals, maybe a machine learning model could help close this gap between these giants and the individual traders. 
 
-## Getting Started
+As with most, if not all, machine learning models, it will not predict with perfect accuracy but if it is used in conjunction with other strategies and indicators, it could help these traders decide where to place their money to maximize their return on investments. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+After some research I decided to try to use a Long-Short Term Memory network, which is a type of Recurrent Neural Network. This network will predict the stock prices of Microsoft (MSFT) and Apple (AAPL). The model will be trained to work with large cap companies since long-term investors will be more interested in those companies rather than medium or small cap stocks. 
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+With stock price prediction and a well-rounded risk management method, I believe that machine learning will be more popular with individual traders and not only banks, hedge funds and other trading firms.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Python v3.6.5](https://www.python.org/) - The programming language used
+* [TensorFlow v1.12](https://www.tensorflow.org/) - Machine Learning library
+* [pandas v0.23](https://pandas.pydata.org/) - Used to read csv files and manipulate data
+* [numpy v1.14.3](http://www.numpy.org/) - Used to manipulate data arrays
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Lucas Magalhaes** - *Author*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## Paper
+
+For more information on version 1 of this project, you can read the paper that I wrote.
+[Paper](TensorFlow_StockPrediction_Paper.pdf)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
