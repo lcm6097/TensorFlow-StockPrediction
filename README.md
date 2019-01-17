@@ -30,3 +30,10 @@ For more information on version 1 of this project, you can read the paper that I
 
 This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Future Work
+
+..* Add more tickers to the algorithm
+..* Add different timelines of the stock pricing(now it only does 1 price/day)
+..* Backtest algorithm to make sure it makes money
+..* Add trading algorithm that will take risk management into account
+..* Add portfolio management
