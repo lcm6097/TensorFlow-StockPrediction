@@ -10,6 +10,11 @@ After some research I decided to try to use a Long-Short Term Memory network, wh
 
 With stock price prediction and a well-rounded risk management method, I believe that machine learning will be more popular with individual traders and not only banks, hedge funds and other trading firms.
 
+![figure_1](https://user-images.githubusercontent.com/15366367/53199334-d1cdf300-35ec-11e9-910d-5a7f91733184.png)
+- Training Loss for Apple stock
+![figure_2](https://user-images.githubusercontent.com/15366367/53199335-d1cdf300-35ec-11e9-950b-7bb70f8cebed.png)
+-Prediction vs Real values, and test values loss for Apple stock
+
 ## Built With
 
 * [Python v3.6.5](https://www.python.org/) - The programming language used
